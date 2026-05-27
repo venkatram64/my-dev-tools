@@ -1,0 +1,10 @@
+{
+  "enabledPlugins": {
+    "commit-commands@claude-plugins-official": true
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash .claude/status_line.sh",
+    "padding": 2
+  }
+}

@@ -1,0 +1,3089 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "tool_routing_implementation",
+        "label": "Tool Routing Pattern",
+        "nodes": [
+          "base64_page",
+          "char_count_page",
+          "cron_page",
+          "hash_page",
+          "json_fmt_page",
+          "json_yaml_page",
+          "jwt_page",
+          "pwd_gen_page",
+          "regex_page",
+          "case_conv_page",
+          "ts_conv_page",
+          "uuid_page"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "CLAUDE.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "community": 17,
+      "norm_label": "eslint.config.mjs",
+      "id": "eslint_config_mjs"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "community": 17,
+      "norm_label": "eslintconfig",
+      "id": "my_dev_tools_eslint_config_eslintconfig"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "community": 18,
+      "norm_label": "next.config.ts",
+      "id": "next_config_ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "community": 18,
+      "norm_label": "nextconfig",
+      "id": "my_dev_tools_next_config_nextconfig"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 2,
+      "norm_label": "name",
+      "id": "my_dev_tools_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 2,
+      "norm_label": "version",
+      "id": "my_dev_tools_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 2,
+      "norm_label": "private",
+      "id": "my_dev_tools_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 10,
+      "norm_label": "scripts",
+      "id": "my_dev_tools_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 10,
+      "norm_label": "dev",
+      "id": "my_dev_tools_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 10,
+      "norm_label": "build",
+      "id": "my_dev_tools_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 10,
+      "norm_label": "start",
+      "id": "my_dev_tools_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 10,
+      "norm_label": "lint",
+      "id": "my_dev_tools_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 5,
+      "norm_label": "dependencies",
+      "id": "my_dev_tools_package_dependencies"
+    },
+    {
+      "label": "cronstrue",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 5,
+      "norm_label": "cronstrue",
+      "id": "my_dev_tools_package_dependencies_cronstrue"
+    },
+    {
+      "label": "crypto-js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 5,
+      "norm_label": "crypto-js",
+      "id": "my_dev_tools_package_dependencies_crypto_js"
+    },
+    {
+      "label": "date-fns",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 5,
+      "norm_label": "date-fns",
+      "id": "my_dev_tools_package_dependencies_date_fns"
+    },
+    {
+      "label": "js-yaml",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 5,
+      "norm_label": "js-yaml",
+      "id": "my_dev_tools_package_dependencies_js_yaml"
+    },
+    {
+      "label": "jwt-decode",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "community": 5,
+      "norm_label": "jwt-decode",
+      "id": "my_dev_tools_package_dependencies_jwt_decode"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 5,
+      "norm_label": "next",
+      "id": "my_dev_tools_package_dependencies_next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "community": 5,
+      "norm_label": "react",
+      "id": "my_dev_tools_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "community": 5,
+      "norm_label": "react-dom",
+      "id": "my_dev_tools_package_dependencies_react_dom"
+    },
+    {
+      "label": "uuid",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 5,
+      "norm_label": "uuid",
+      "id": "my_dev_tools_package_dependencies_uuid"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 4,
+      "norm_label": "devdependencies",
+      "id": "my_dev_tools_package_devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "my_dev_tools_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "@types/crypto-js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 4,
+      "norm_label": "@types/crypto-js",
+      "id": "my_dev_tools_package_devdependencies_types_crypto_js"
+    },
+    {
+      "label": "@types/js-yaml",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 4,
+      "norm_label": "@types/js-yaml",
+      "id": "my_dev_tools_package_devdependencies_types_js_yaml"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "community": 4,
+      "norm_label": "@types/node",
+      "id": "my_dev_tools_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "community": 4,
+      "norm_label": "@types/react",
+      "id": "my_dev_tools_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "community": 4,
+      "norm_label": "@types/react-dom",
+      "id": "my_dev_tools_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "@types/uuid",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "community": 4,
+      "norm_label": "@types/uuid",
+      "id": "my_dev_tools_package_devdependencies_types_uuid"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "community": 4,
+      "norm_label": "eslint",
+      "id": "my_dev_tools_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "community": 4,
+      "norm_label": "eslint-config-next",
+      "id": "my_dev_tools_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "community": 4,
+      "norm_label": "tailwindcss",
+      "id": "my_dev_tools_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "community": 4,
+      "norm_label": "typescript",
+      "id": "my_dev_tools_package_devdependencies_typescript"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "postcss.config.mjs",
+      "id": "postcss_config_mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "config",
+      "id": "my_dev_tools_postcss_config_config"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "tsconfig.json",
+      "id": "tsconfig_json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "community": 1,
+      "norm_label": "compileroptions",
+      "id": "my_dev_tools_tsconfig_compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "community": 1,
+      "norm_label": "target",
+      "id": "my_dev_tools_tsconfig_compileroptions_target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "community": 1,
+      "norm_label": "lib",
+      "id": "my_dev_tools_tsconfig_compileroptions_lib"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "community": 1,
+      "norm_label": "allowjs",
+      "id": "my_dev_tools_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "community": 1,
+      "norm_label": "skiplibcheck",
+      "id": "my_dev_tools_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "community": 1,
+      "norm_label": "strict",
+      "id": "my_dev_tools_tsconfig_compileroptions_strict"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "noemit",
+      "id": "my_dev_tools_tsconfig_compileroptions_noemit"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "community": 1,
+      "norm_label": "esmoduleinterop",
+      "id": "my_dev_tools_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "community": 1,
+      "norm_label": "module",
+      "id": "my_dev_tools_tsconfig_compileroptions_module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "community": 1,
+      "norm_label": "moduleresolution",
+      "id": "my_dev_tools_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "community": 1,
+      "norm_label": "resolvejsonmodule",
+      "id": "my_dev_tools_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "community": 1,
+      "norm_label": "isolatedmodules",
+      "id": "my_dev_tools_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "community": 1,
+      "norm_label": "jsx",
+      "id": "my_dev_tools_tsconfig_compileroptions_jsx"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "community": 1,
+      "norm_label": "incremental",
+      "id": "my_dev_tools_tsconfig_compileroptions_incremental"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "community": 1,
+      "norm_label": "plugins",
+      "id": "my_dev_tools_tsconfig_compileroptions_plugins"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "community": 1,
+      "norm_label": "paths",
+      "id": "my_dev_tools_tsconfig_compileroptions_paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "community": 1,
+      "norm_label": "@/*",
+      "id": "my_dev_tools_tsconfig_paths"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "community": 1,
+      "norm_label": "include",
+      "id": "my_dev_tools_tsconfig_include"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "community": 1,
+      "norm_label": "exclude",
+      "id": "my_dev_tools_tsconfig_exclude"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "settings.json",
+      "id": "claude_settings_json"
+    },
+    {
+      "label": "enabledPlugins",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "community": 7,
+      "norm_label": "enabledplugins",
+      "id": "claude_settings_enabledplugins"
+    },
+    {
+      "label": "commit-commands@claude-plugins-official",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "community": 7,
+      "norm_label": "commit-commands@claude-plugins-official",
+      "id": "claude_settings_enabledplugins_commit_commands_claude_plugins_official"
+    },
+    {
+      "label": "statusLine",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "statusline",
+      "id": "claude_settings_statusline"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L6",
+      "community": 7,
+      "norm_label": "type",
+      "id": "claude_settings_statusline_type"
+    },
+    {
+      "label": "command",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L7",
+      "community": 7,
+      "norm_label": "command",
+      "id": "claude_settings_statusline_command"
+    },
+    {
+      "label": "padding",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "community": 7,
+      "norm_label": "padding",
+      "id": "claude_settings_statusline_padding"
+    },
+    {
+      "label": "status_line.sh",
+      "file_type": "code",
+      "source_file": ".claude/status_line.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 15,
+      "norm_label": "status_line.sh",
+      "id": "claude_status_line_sh"
+    },
+    {
+      "label": "status_line.sh script",
+      "file_type": "code",
+      "source_file": ".claude/status_line.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 15,
+      "norm_label": "status_line.sh script",
+      "id": "d_my_claude_my_dev_tools_claude_status_line_sh__entry"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "layout.tsx",
+      "id": "src_app_layout_tsx"
+    },
+    {
+      "label": "geistSans",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L7",
+      "community": 3,
+      "norm_label": "geistsans",
+      "id": "app_layout_geistsans"
+    },
+    {
+      "label": "geistMono",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L8",
+      "community": 3,
+      "norm_label": "geistmono",
+      "id": "app_layout_geistmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L10",
+      "community": 3,
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "page.tsx",
+      "id": "src_app_page_tsx"
+    },
+    {
+      "label": "tools",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "community": 12,
+      "norm_label": "tools",
+      "id": "app_page_tools"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "community": 12,
+      "norm_label": "home()",
+      "id": "app_page_home"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_base64_encoder_page_tsx"
+    },
+    {
+      "label": "Base64Encoder()",
+      "file_type": "code",
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "base64encoder()",
+      "id": "base64_encoder_page_base64encoder"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_character_counter_page_tsx"
+    },
+    {
+      "label": "count()",
+      "file_type": "code",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "count()",
+      "id": "character_counter_page_count"
+    },
+    {
+      "label": "CharacterCounter()",
+      "file_type": "code",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L16",
+      "community": 0,
+      "norm_label": "charactercounter()",
+      "id": "character_counter_page_charactercounter"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "page.tsx",
+      "id": "src_app_cron_explainer_page_tsx"
+    },
+    {
+      "label": "EXAMPLES",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L6",
+      "community": 13,
+      "norm_label": "examples",
+      "id": "cron_explainer_page_examples"
+    },
+    {
+      "label": "getNextRuns()",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L16",
+      "community": 13,
+      "norm_label": "getnextruns()",
+      "id": "cron_explainer_page_getnextruns"
+    },
+    {
+      "label": "CronExplainer()",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L60",
+      "community": 13,
+      "norm_label": "cronexplainer()",
+      "id": "cron_explainer_page_cronexplainer"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "page.tsx",
+      "id": "src_app_hash_generator_page_tsx"
+    },
+    {
+      "label": "ALGOS",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L6",
+      "community": 8,
+      "norm_label": "algos",
+      "id": "hash_generator_page_algos"
+    },
+    {
+      "label": "Algo",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L7",
+      "community": 8,
+      "norm_label": "algo",
+      "id": "hash_generator_page_algo"
+    },
+    {
+      "label": "hash()",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L9",
+      "community": 8,
+      "norm_label": "hash()",
+      "id": "hash_generator_page_hash"
+    },
+    {
+      "label": "HashGenerator()",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L18",
+      "community": 8,
+      "norm_label": "hashgenerator()",
+      "id": "hash_generator_page_hashgenerator"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_json_formatter_page_tsx"
+    },
+    {
+      "label": "INDENTS",
+      "file_type": "code",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "indents",
+      "id": "json_formatter_page_indents"
+    },
+    {
+      "label": "JSONFormatter()",
+      "file_type": "code",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L7",
+      "community": 0,
+      "norm_label": "jsonformatter()",
+      "id": "json_formatter_page_jsonformatter"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_json_yaml_page_tsx"
+    },
+    {
+      "label": "JsonYaml()",
+      "file_type": "code",
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "jsonyaml()",
+      "id": "json_yaml_page_jsonyaml"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "src_app_jwt_decoder_page_tsx"
+    },
+    {
+      "label": "decodeJWT()",
+      "file_type": "code",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L5",
+      "community": 9,
+      "norm_label": "decodejwt()",
+      "id": "jwt_decoder_page_decodejwt"
+    },
+    {
+      "label": "ExpiryStatus()",
+      "file_type": "code",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L16",
+      "community": 9,
+      "norm_label": "expirystatus()",
+      "id": "jwt_decoder_page_expirystatus"
+    },
+    {
+      "label": "JWTDecoder()",
+      "file_type": "code",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L33",
+      "community": 9,
+      "norm_label": "jwtdecoder()",
+      "id": "jwt_decoder_page_jwtdecoder"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/password-generator/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_password_generator_page_tsx"
+    },
+    {
+      "label": "calcStrength()",
+      "file_type": "code",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L10",
+      "community": 0,
+      "norm_label": "calcstrength()",
+      "id": "password_generator_page_calcstrength"
+    },
+    {
+      "label": "PasswordGenerator()",
+      "file_type": "code",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L24",
+      "community": 0,
+      "norm_label": "passwordgenerator()",
+      "id": "password_generator_page_passwordgenerator"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "page.tsx",
+      "id": "src_app_regex_tester_page_tsx"
+    },
+    {
+      "label": "ALL_FLAGS",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L5",
+      "community": 11,
+      "norm_label": "all_flags",
+      "id": "regex_tester_page_all_flags"
+    },
+    {
+      "label": "Flag",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L6",
+      "community": 11,
+      "norm_label": "flag",
+      "id": "regex_tester_page_flag"
+    },
+    {
+      "label": "MatchResult",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L8",
+      "community": 11,
+      "norm_label": "matchresult",
+      "id": "regex_tester_page_matchresult"
+    },
+    {
+      "label": "RegexTester()",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L15",
+      "community": 11,
+      "norm_label": "regextester()",
+      "id": "regex_tester_page_regextester"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "page.tsx",
+      "id": "src_app_text_case_converter_page_tsx"
+    },
+    {
+      "label": "toCamel()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L5",
+      "community": 6,
+      "norm_label": "tocamel()",
+      "id": "text_case_converter_page_tocamel"
+    },
+    {
+      "label": "toPascal()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L10",
+      "community": 6,
+      "norm_label": "topascal()",
+      "id": "text_case_converter_page_topascal"
+    },
+    {
+      "label": "toSnake()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L14",
+      "community": 6,
+      "norm_label": "tosnake()",
+      "id": "text_case_converter_page_tosnake"
+    },
+    {
+      "label": "toKebab()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L20",
+      "community": 6,
+      "norm_label": "tokebab()",
+      "id": "text_case_converter_page_tokebab"
+    },
+    {
+      "label": "toTitle()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L23",
+      "community": 6,
+      "norm_label": "totitle()",
+      "id": "text_case_converter_page_totitle"
+    },
+    {
+      "label": "toSentence()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L26",
+      "community": 6,
+      "norm_label": "tosentence()",
+      "id": "text_case_converter_page_tosentence"
+    },
+    {
+      "label": "toAlternating()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L29",
+      "community": 6,
+      "norm_label": "toalternating()",
+      "id": "text_case_converter_page_toalternating"
+    },
+    {
+      "label": "CASES",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L33",
+      "community": 6,
+      "norm_label": "cases",
+      "id": "text_case_converter_page_cases"
+    },
+    {
+      "label": "TextCaseConverter()",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L45",
+      "community": 6,
+      "norm_label": "textcaseconverter()",
+      "id": "text_case_converter_page_textcaseconverter"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_timestamp_converter_page_tsx"
+    },
+    {
+      "label": "ZONES",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "zones",
+      "id": "timestamp_converter_page_zones"
+    },
+    {
+      "label": "formatInZone()",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L16",
+      "community": 0,
+      "norm_label": "formatinzone()",
+      "id": "timestamp_converter_page_formatinzone"
+    },
+    {
+      "label": "TimestampConverter()",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L29",
+      "community": 0,
+      "norm_label": "timestampconverter()",
+      "id": "timestamp_converter_page_timestampconverter"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "src_app_uuid_generator_page_tsx"
+    },
+    {
+      "label": "UUIDGenerator()",
+      "file_type": "code",
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "uuidgenerator()",
+      "id": "uuid_generator_page_uuidgenerator"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "navbar.tsx",
+      "id": "src_components_navbar_tsx"
+    },
+    {
+      "label": "tools",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.tsx",
+      "source_location": "L5",
+      "community": 3,
+      "norm_label": "tools",
+      "id": "components_navbar_tools"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "components/Navbar.tsx",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "navbar()",
+      "id": "components_navbar_navbar"
+    },
+    {
+      "label": "ToolLayout.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ToolLayout.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "toollayout.tsx",
+      "id": "src_components_toollayout_tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "components/ToolLayout.tsx",
+      "source_location": "L3",
+      "community": 0,
+      "norm_label": "props",
+      "id": "components_toollayout_props"
+    },
+    {
+      "label": "ToolLayout()",
+      "file_type": "code",
+      "source_file": "components/ToolLayout.tsx",
+      "source_location": "L9",
+      "community": 0,
+      "norm_label": "toollayout()",
+      "id": "components_toollayout_toollayout"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "community": 20,
+      "norm_label": "claude.md",
+      "id": "claude_md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "community": 21,
+      "norm_label": "agents.md",
+      "id": "agents_md"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "community": 22,
+      "norm_label": "readme.md",
+      "id": "readme_md"
+    },
+    {
+      "label": "Root Layout",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "community": 16,
+      "norm_label": "root layout",
+      "id": "layout_tsx"
+    },
+    {
+      "label": "Home Page",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "community": 23,
+      "norm_label": "home page",
+      "id": "page_tsx"
+    },
+    {
+      "label": "Navbar",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.tsx",
+      "community": 16,
+      "norm_label": "navbar",
+      "id": "navbar_tsx"
+    },
+    {
+      "label": "ToolLayout",
+      "file_type": "code",
+      "source_file": "src/components/ToolLayout.tsx",
+      "community": 2,
+      "norm_label": "toollayout",
+      "id": "tool_layout_tsx"
+    },
+    {
+      "label": "Base64 Encoder Tool",
+      "file_type": "code",
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "community": 2,
+      "norm_label": "base64 encoder tool",
+      "id": "base64_page"
+    },
+    {
+      "label": "Character Counter Tool",
+      "file_type": "code",
+      "source_file": "src/app/character-counter/page.tsx",
+      "community": 2,
+      "norm_label": "character counter tool",
+      "id": "char_count_page"
+    },
+    {
+      "label": "Cron Explainer Tool",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "community": 2,
+      "norm_label": "cron explainer tool",
+      "id": "cron_page"
+    },
+    {
+      "label": "Hash Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "community": 2,
+      "norm_label": "hash generator tool",
+      "id": "hash_page"
+    },
+    {
+      "label": "JSON Formatter Tool",
+      "file_type": "code",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "community": 2,
+      "norm_label": "json formatter tool",
+      "id": "json_fmt_page"
+    },
+    {
+      "label": "JSON-YAML Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/json-yaml/page.tsx",
+      "community": 2,
+      "norm_label": "json-yaml converter tool",
+      "id": "json_yaml_page"
+    },
+    {
+      "label": "JWT Decoder Tool",
+      "file_type": "code",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "community": 2,
+      "norm_label": "jwt decoder tool",
+      "id": "jwt_page"
+    },
+    {
+      "label": "Password Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/password-generator/page.tsx",
+      "community": 2,
+      "norm_label": "password generator tool",
+      "id": "pwd_gen_page"
+    },
+    {
+      "label": "Regex Tester Tool",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "community": 2,
+      "norm_label": "regex tester tool",
+      "id": "regex_page"
+    },
+    {
+      "label": "Text Case Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "community": 2,
+      "norm_label": "text case converter tool",
+      "id": "case_conv_page"
+    },
+    {
+      "label": "Timestamp Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "community": 2,
+      "norm_label": "timestamp converter tool",
+      "id": "ts_conv_page"
+    },
+    {
+      "label": "UUID Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "community": 2,
+      "norm_label": "uuid generator tool",
+      "id": "uuid_page"
+    },
+    {
+      "label": "MyDevTools",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "community": 14,
+      "norm_label": "mydevtools",
+      "id": "my_dev_tools_concept"
+    },
+    {
+      "label": "Pure Client-Side Logic",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "community": 14,
+      "norm_label": "pure client-side logic",
+      "id": "client_side_logic"
+    },
+    {
+      "label": "CSS Custom Property Dark Theme",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "community": 14,
+      "norm_label": "css custom property dark theme",
+      "id": "dark_theme_system"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "layout.tsx",
+      "id": "app_layout_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "page.tsx",
+      "id": "app_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_jwt_decoder_page_tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "app_password_generator_page_tsx"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "components/Navbar.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "navbar.tsx",
+      "id": "components_navbar_tsx"
+    },
+    {
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "components/Sidebar.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "sidebar.tsx",
+      "id": "components_sidebar_tsx"
+    },
+    {
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "components/Sidebar.tsx",
+      "source_location": "L6",
+      "community": 3,
+      "norm_label": "sidebar()",
+      "id": "components_sidebar_sidebar"
+    },
+    {
+      "label": "ToolLayout.tsx",
+      "file_type": "code",
+      "source_file": "components/ToolLayout.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "toollayout.tsx",
+      "id": "components_toollayout_tsx"
+    },
+    {
+      "label": "tools.ts",
+      "file_type": "code",
+      "source_file": "config/tools.ts",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "tools.ts",
+      "id": "config_tools_ts"
+    },
+    {
+      "label": "Tool",
+      "file_type": "code",
+      "source_file": "config/tools.ts",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "tool",
+      "id": "config_tools_tool"
+    },
+    {
+      "label": "tools",
+      "file_type": "code",
+      "source_file": "config/tools.ts",
+      "source_location": "L6",
+      "community": 3,
+      "norm_label": "tools",
+      "id": "config_tools_tools"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "my_dev_tools_eslint_config_eslintconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "next_config_ts",
+      "target": "my_dev_tools_next_config_nextconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "my_dev_tools_package_devdependencies"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source": "package_json",
+      "target": "cron_page"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source": "package_json",
+      "target": "hash_page"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source": "package_json",
+      "target": "json_yaml_page"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source": "package_json",
+      "target": "uuid_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_scripts",
+      "target": "my_dev_tools_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_scripts",
+      "target": "my_dev_tools_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_scripts",
+      "target": "my_dev_tools_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_scripts",
+      "target": "my_dev_tools_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_cronstrue"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_crypto_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_date_fns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_js_yaml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_jwt_decode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_dependencies",
+      "target": "my_dev_tools_package_dependencies_uuid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_crypto_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_js_yaml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_types_uuid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_eslint_config_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_package_devdependencies",
+      "target": "my_dev_tools_package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "postcss_config_mjs",
+      "target": "my_dev_tools_postcss_config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "my_dev_tools_tsconfig_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "my_dev_tools_tsconfig_include"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "my_dev_tools_tsconfig_exclude"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_target"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_lib"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_strict"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_noemit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_jsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_incremental"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_plugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions",
+      "target": "my_dev_tools_tsconfig_compileroptions_paths"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "my_dev_tools_tsconfig_compileroptions_paths",
+      "target": "my_dev_tools_tsconfig_paths"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_enabledplugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_statusline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_enabledplugins",
+      "target": "claude_settings_enabledplugins_commit_commands_claude_plugins_official"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_statusline",
+      "target": "claude_settings_statusline_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_statusline",
+      "target": "claude_settings_statusline_command"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_statusline",
+      "target": "claude_settings_statusline_padding"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/status_line.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_status_line_sh",
+      "target": "d_my_claude_my_dev_tools_claude_status_line_sh__entry"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "src_components_navbar_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_geistsans"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_geistmono"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_rootlayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_geistsans",
+      "target": "app_layout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_geistmono",
+      "target": "app_layout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_metadata",
+      "target": "app_layout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_rootlayout",
+      "target": "app_layout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "app_page_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "app_page_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_home",
+      "target": "app_page_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_base64_encoder_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_base64_encoder_page_tsx",
+      "target": "base64_encoder_page_base64encoder"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_character_counter_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_character_counter_page_tsx",
+      "target": "character_counter_page_count"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/character-counter/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_character_counter_page_tsx",
+      "target": "character_counter_page_charactercounter"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_cron_explainer_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_cron_explainer_page_tsx",
+      "target": "cron_explainer_page_examples"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_cron_explainer_page_tsx",
+      "target": "cron_explainer_page_getnextruns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_cron_explainer_page_tsx",
+      "target": "cron_explainer_page_cronexplainer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_hash_generator_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_hash_generator_page_tsx",
+      "target": "hash_generator_page_algos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_hash_generator_page_tsx",
+      "target": "hash_generator_page_algo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_hash_generator_page_tsx",
+      "target": "hash_generator_page_hash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_hash_generator_page_tsx",
+      "target": "hash_generator_page_hashgenerator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_json_formatter_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_json_formatter_page_tsx",
+      "target": "json_formatter_page_indents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_json_formatter_page_tsx",
+      "target": "json_formatter_page_jsonformatter"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_json_yaml_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_json_yaml_page_tsx",
+      "target": "json_yaml_page_jsonyaml"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_jwt_decoder_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_jwt_decoder_page_tsx",
+      "target": "jwt_decoder_page_decodejwt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_jwt_decoder_page_tsx",
+      "target": "jwt_decoder_page_expirystatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_jwt_decoder_page_tsx",
+      "target": "jwt_decoder_page_jwtdecoder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jwt_decoder_page_decodejwt",
+      "target": "jwt_decoder_page_jwtdecoder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jwt_decoder_page_decodejwt",
+      "target": "app_jwt_decoder_page_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jwt_decoder_page_expirystatus",
+      "target": "app_jwt_decoder_page_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "jwt_decoder_page_jwtdecoder",
+      "target": "app_jwt_decoder_page_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/password-generator/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_password_generator_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/password-generator/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_password_generator_page_tsx",
+      "target": "password_generator_page_calcstrength"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/password-generator/page.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_password_generator_page_tsx",
+      "target": "password_generator_page_passwordgenerator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "password_generator_page_calcstrength",
+      "target": "password_generator_page_passwordgenerator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "password_generator_page_calcstrength",
+      "target": "app_password_generator_page_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "password_generator_page_passwordgenerator",
+      "target": "app_password_generator_page_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_regex_tester_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_regex_tester_page_tsx",
+      "target": "regex_tester_page_all_flags"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_regex_tester_page_tsx",
+      "target": "regex_tester_page_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_regex_tester_page_tsx",
+      "target": "regex_tester_page_matchresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_regex_tester_page_tsx",
+      "target": "regex_tester_page_regextester"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_tocamel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_topascal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_tosnake"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_tokebab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_totitle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_tosentence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_toalternating"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_cases"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_text_case_converter_page_tsx",
+      "target": "text_case_converter_page_textcaseconverter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "text_case_converter_page_tocamel",
+      "target": "text_case_converter_page_topascal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "text_case_converter_page_tosnake",
+      "target": "text_case_converter_page_tokebab"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_timestamp_converter_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_timestamp_converter_page_tsx",
+      "target": "timestamp_converter_page_zones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_timestamp_converter_page_tsx",
+      "target": "timestamp_converter_page_formatinzone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_timestamp_converter_page_tsx",
+      "target": "timestamp_converter_page_timestampconverter"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_uuid_generator_page_tsx",
+      "target": "src_components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_uuid_generator_page_tsx",
+      "target": "uuid_generator_page_uuidgenerator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_navbar_tsx",
+      "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Navbar.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ToolLayout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_toollayout_tsx",
+      "target": "components_toollayout_props"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ToolLayout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_toollayout_tsx",
+      "target": "components_toollayout_toollayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ToolLayout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_toollayout_props",
+      "target": "components_toollayout_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ToolLayout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_toollayout_toollayout",
+      "target": "components_toollayout_tsx"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source": "layout_tsx",
+      "target": "navbar_tsx"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/base64-encoder/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "base64_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/character-counter/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "char_count_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/cron-explainer/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "cron_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/hash-generator/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "hash_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/json-formatter/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "json_fmt_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/json-yaml/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "json_yaml_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/jwt-decoder/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "jwt_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/password-generator/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "pwd_gen_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/regex-tester/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "regex_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/text-case-converter/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "case_conv_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/timestamp-converter/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "ts_conv_page"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/uuid-generator/page.tsx",
+      "source": "tool_layout_tsx",
+      "target": "uuid_page"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source": "my_dev_tools_concept",
+      "target": "client_side_logic"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source": "my_dev_tools_concept",
+      "target": "dark_theme_system"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "components_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "components_sidebar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/jwt-decoder/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_jwt_decoder_page_tsx",
+      "target": "components_toollayout_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/password-generator/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_password_generator_page_tsx",
+      "target": "components_toollayout_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Sidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sidebar_tsx",
+      "target": "config_tools_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Sidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sidebar_tsx",
+      "target": "config_tools_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Sidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sidebar_tsx",
+      "target": "components_sidebar_sidebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/tools.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_tools_ts",
+      "target": "config_tools_tool"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/tools.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "config_tools_ts",
+      "target": "config_tools_tools"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "tool_routing_implementation",
+      "label": "Tool Routing Pattern",
+      "nodes": [
+        "base64_page",
+        "char_count_page",
+        "cron_page",
+        "hash_page",
+        "json_fmt_page",
+        "json_yaml_page",
+        "jwt_page",
+        "pwd_gen_page",
+        "regex_page",
+        "case_conv_page",
+        "ts_conv_page",
+        "uuid_page"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md"
+    }
+  ]
+}

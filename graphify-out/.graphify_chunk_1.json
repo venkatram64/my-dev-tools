@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "id": "package_json",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json"
+    },
+    {
+      "id": "claude_md",
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "agents_md",
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md"
+    },
+    {
+      "id": "readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md"
+    },
+    {
+      "id": "layout_tsx",
+      "label": "Root Layout",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx"
+    },
+    {
+      "id": "page_tsx",
+      "label": "Home Page",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx"
+    },
+    {
+      "id": "navbar_tsx",
+      "label": "Navbar",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.tsx"
+    },
+    {
+      "id": "tool_layout_tsx",
+      "label": "ToolLayout",
+      "file_type": "code",
+      "source_file": "src/components/ToolLayout.tsx"
+    },
+    {
+      "id": "base64_page",
+      "label": "Base64 Encoder Tool",
+      "file_type": "code",
+      "source_file": "src/app/base64-encoder/page.tsx"
+    },
+    {
+      "id": "char_count_page",
+      "label": "Character Counter Tool",
+      "file_type": "code",
+      "source_file": "src/app/character-counter/page.tsx"
+    },
+    {
+      "id": "cron_page",
+      "label": "Cron Explainer Tool",
+      "file_type": "code",
+      "source_file": "src/app/cron-explainer/page.tsx"
+    },
+    {
+      "id": "hash_page",
+      "label": "Hash Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/hash-generator/page.tsx"
+    },
+    {
+      "id": "json_fmt_page",
+      "label": "JSON Formatter Tool",
+      "file_type": "code",
+      "source_file": "src/app/json-formatter/page.tsx"
+    },
+    {
+      "id": "json_yaml_page",
+      "label": "JSON-YAML Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/json-yaml/page.tsx"
+    },
+    {
+      "id": "jwt_page",
+      "label": "JWT Decoder Tool",
+      "file_type": "code",
+      "source_file": "src/app/jwt-decoder/page.tsx"
+    },
+    {
+      "id": "pwd_gen_page",
+      "label": "Password Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/password-generator/page.tsx"
+    },
+    {
+      "id": "regex_page",
+      "label": "Regex Tester Tool",
+      "file_type": "code",
+      "source_file": "src/app/regex-tester/page.tsx"
+    },
+    {
+      "id": "case_conv_page",
+      "label": "Text Case Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/text-case-converter/page.tsx"
+    },
+    {
+      "id": "ts_conv_page",
+      "label": "Timestamp Converter Tool",
+      "file_type": "code",
+      "source_file": "src/app/timestamp-converter/page.tsx"
+    },
+    {
+      "id": "uuid_page",
+      "label": "UUID Generator Tool",
+      "file_type": "code",
+      "source_file": "src/app/uuid-generator/page.tsx"
+    },
+    {
+      "id": "my_dev_tools_concept",
+      "label": "MyDevTools",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "client_side_logic",
+      "label": "Pure Client-Side Logic",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "dark_theme_system",
+      "label": "CSS Custom Property Dark Theme",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "layout_tsx",
+      "target": "navbar_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx"
+    },
+    {
+      "source": "base64_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/base64-encoder/page.tsx"
+    },
+    {
+      "source": "char_count_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/character-counter/page.tsx"
+    },
+    {
+      "source": "cron_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/cron-explainer/page.tsx"
+    },
+    {
+      "source": "hash_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/hash-generator/page.tsx"
+    },
+    {
+      "source": "json_fmt_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/json-formatter/page.tsx"
+    },
+    {
+      "source": "json_yaml_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/json-yaml/page.tsx"
+    },
+    {
+      "source": "jwt_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/jwt-decoder/page.tsx"
+    },
+    {
+      "source": "pwd_gen_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/password-generator/page.tsx"
+    },
+    {
+      "source": "regex_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/regex-tester/page.tsx"
+    },
+    {
+      "source": "case_conv_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/text-case-converter/page.tsx"
+    },
+    {
+      "source": "ts_conv_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/timestamp-converter/page.tsx"
+    },
+    {
+      "source": "uuid_page",
+      "target": "tool_layout_tsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/uuid-generator/page.tsx"
+    },
+    {
+      "source": "my_dev_tools_concept",
+      "target": "client_side_logic",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "my_dev_tools_concept",
+      "target": "dark_theme_system",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "cron_page",
+      "target": "package_json",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/cron-explainer/page.tsx"
+    },
+    {
+      "source": "hash_page",
+      "target": "package_json",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/hash-generator/page.tsx"
+    },
+    {
+      "source": "json_yaml_page",
+      "target": "package_json",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/json-yaml/page.tsx"
+    },
+    {
+      "source": "uuid_page",
+      "target": "package_json",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/uuid-generator/page.tsx"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "tool_routing_implementation",
+      "label": "Tool Routing Pattern",
+      "nodes": [
+        "base64_page",
+        "char_count_page",
+        "cron_page",
+        "hash_page",
+        "json_fmt_page",
+        "json_yaml_page",
+        "jwt_page",
+        "pwd_gen_page",
+        "regex_page",
+        "case_conv_page",
+        "ts_conv_page",
+        "uuid_page"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md"
+    }
+  ],
+  "input_tokens": 57748,
+  "output_tokens": 2500
+}

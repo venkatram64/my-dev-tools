@@ -1,0 +1,1 @@
+{"nodes": [{"id": "char_count_page", "label": "Character Counter Tool", "file_type": "code", "source_file": "src/app/character-counter/page.tsx"}], "edges": [{"source": "char_count_page", "target": "tool_layout_tsx", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/app/character-counter/page.tsx"}], "hyperedges": []}
