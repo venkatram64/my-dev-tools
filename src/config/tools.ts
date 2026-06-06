@@ -16,4 +16,5 @@ export const tools: Tool[] = [
   { href: "/jwt-decoder", label: "JWT" },
   { href: "/timestamp-converter", label: "Timestamp" },
   { href: "/cron-explainer", label: "Cron" },
+  { href: "/image-to-text", label: "Img→Text" },
 ];
